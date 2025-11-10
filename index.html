@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="/src/main.tsx" as="script" fetchpriority="high">
+    <link rel="preload" href="/images/ArtisanVase.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="preload" href="/images/ArtisanMug.webp" as="image" type="image/webp">
+    <link rel="preload" href="/images/ArtisanLogo.png" as="image" type="image/png">
+    
+    <!-- Preconnect to domains -->
+    <link rel="preconnect" href="https://images.unsplash.com">
+    
+    <!-- DNS Prefetch untuk external resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Discover unique handmade artisan crafts at ArtisanCraft. Shop curated collection of handmade pottery, ceramics, woodwork, and textiles. Each piece tells a story of craftsmanship and passion." />
+    <meta name="keywords" content="handmade crafts, artisan products, pottery, ceramics, woodwork, handmade gifts, artisan marketplace, handmade decor, artisan crafts" />
+    <meta name="author" content="ArtisanCraft" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ArtisanCraft - Unique Handmade Crafts & Artisan Products" />
+    <meta property="og:description" content="Discover unique handmade artisan crafts. Each piece tells a story of craftsmanship and passion. Shop our curated collection today." />
+    <meta property="og:image" content="/images/ArtisanLogo.png" />
+    <meta property="og:url" content="https://artisancraft.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ArtisanCraft" />
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ArtisanCraft - Unique Handmade Crafts" />
+    <meta name="twitter:description" content="Discover unique handmade artisan crafts and bring authentic artistry into your home." />
+    <meta name="twitter:image" content="/images/ArtisanLogo.png" />
+    
+    <!-- Additional SEO -->
+    <link rel="canonical" href="https://artisancraft.vercel.app" />
+    <meta name="theme-color" content="#f97316" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/ArtisanLogo.png">
+    
+    <title>ArtisanCraft - Unique Handmade Crafts & Artisan Products | Handmade Pottery & Decor</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
