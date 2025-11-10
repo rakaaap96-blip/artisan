@@ -104,7 +104,9 @@ const Hero: React.FC = () => {
                     Artisan Treasures
                   </span>
                 </h1>
-                <p className="text-lg sm:text-xl max-w-lg mx-auto lg:mx-0 text-gray-800 dark:text-gray-200">
+                <p className={`block text-lg sm:text-xl max-w-lg mx-auto lg:mx-0 ${
+                    isDark ? 'text-white' : 'text-gray-900'
+                    }`}>
                   Each piece tells a story. Shop our curated collection of handmade crafts 
                   and bring authentic artistry into your home.
                 </p>
