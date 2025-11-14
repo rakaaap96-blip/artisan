@@ -244,24 +244,6 @@ const Hero: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Scroll Indicator */}
-        <div className="flex justify-center mt-12 sm:mt-16 animate-bounce">
-          <button
-            onClick={scrollToProducts}
-            className="flex flex-col items-center text-gray-700 dark:text-gray-200 hover:text-orange-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2 rounded-lg p-2 min-h-12 min-w-11"
-            aria-label="Scroll to products section"
-          >
-            <span className="text-sm mb-2 font-medium">Scroll to Explore</span>
-            <div className={`w-6 h-10 border-2 rounded-full flex justify-center ${
-              isDark ? 'border-gray-400' : 'border-gray-500'
-            }`}>
-              <div className={`w-1 h-3 rounded-full mt-2 animate-pulse ${
-                isDark ? 'bg-gray-300' : 'bg-gray-600'
-              }`} />
-            </div>
-          </button>
-        </div>
       </div>
 
       {/* Background Elements */}
