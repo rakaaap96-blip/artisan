@@ -80,14 +80,10 @@ const Hero: React.FC = () => {
             <div className="space-y-6">
               {/* Badge */}
               <div 
-                className={`inline-flex items-center px-4 py-2 rounded-full font-medium animate-pulse mx-auto lg:mx-0 justify-center ${
-                  isDark 
-                    ? 'bg-orange-800 text-orange-100 border border-orange-600' 
-                    : 'bg-orange-100 text-orange-800'
-                }`}
+                className="inline-flex items-center px-4 py-2 rounded-full font-medium animate-pulse mx-auto lg:mx-0 justify-center bg-orange-800 text-orange-100 border border-orange-600"
               >
                 <FaStar className="mr-2 motion-safe:animate-spin motion-safe:[animation-duration:3s]" />
-                <span className="bg-linear-to-r from-orange-700 to-red-700 bg-clip-text text-transparent">
+                <span className="bg-clip-text">
                   Premium Handmade Crafts
                 </span>
               </div>
